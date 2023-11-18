@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UpdateBookActivity">
+
+    <TextView
+        android:id="@+id/editTextbookHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/edit_textbook"
+        android:textColor="@color/blue"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/updateSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_done_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/editTextbookHeading"
+        android:layout_marginEnd="6dp"
+        android:contentDescription="TODO" />
+
+    <EditText
+        android:id="@+id/updateIsbn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/editTextbookHeading"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/blue_border"
+        android:hint="@string/enter_the_isbn"
+        android:inputType="number"
+        android:maxLength="13"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins"
+        android:autofillHints=""
+        android:textColorHint="#DD2C00" />
+
+    <EditText
+        android:id="@+id/updateBookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/updateIsbn"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:background="@drawable/blue_border"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:hint="@string/enter_the_book_title"
+        android:inputType="text"
+        android:maxLines="3"
+        android:padding="12dp"
+        android:textColorHint="#DD2C00"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/updateBookAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/updateBookTitle"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:background="@drawable/blue_border"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:hint="@string/enter_the_book_author"
+        android:inputType="text"
+        android:maxLines="30"
+        android:padding="12dp"
+        android:textColorHint="#DD2C00"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/updateCourse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/updateBookAuthor"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:background="@drawable/blue_border"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:hint="@string/enter_the_course"
+        android:inputType="text"
+        android:maxLines="2"
+        android:padding="12dp"
+        android:textColorHint="#DD2C00"
+        android:textSize="18sp" />
+
+</RelativeLayout>

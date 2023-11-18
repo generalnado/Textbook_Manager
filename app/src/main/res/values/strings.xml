@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Textbook Manager</string>
+    <string name="todo">TODO</string>
+    <string name="add_textbook">Add Textbook.</string>
+    <string name="enter_the_isbn">Enter the ISBN</string>
+    <string name="enter_the_book_title">Enter the Book Title</string>
+    <string name="enter_the_book_author">Enter the Book Author</string>
+    <string name="enter_the_course">Enter the Course</string>
+    <string name="textbooks">Textbooks</string>
+    <string name="book_title">Book Title</string>
+    <string name="course">Course</string>
+    <string name="author">Author</string>
+    <string name="textbook_list">Textbook List</string>
+    <string name="isbn">ISBN</string>
+    <string name="edit_textbook">Edit Textbook</string>
+    <string name="edit_the_isbn">Edit the ISBN</string>
+    <string name="edit_the_book_title">Edit the Book Title</string>
+    <string name="edit_the_book_author">Edit the Book Author</string>
+    <string name="edit_the_course">Edit the Course</string>
+    <string name="textbook_Information">Textbook Information</string>
+    <string name="title">Title</string>
+</resources>
